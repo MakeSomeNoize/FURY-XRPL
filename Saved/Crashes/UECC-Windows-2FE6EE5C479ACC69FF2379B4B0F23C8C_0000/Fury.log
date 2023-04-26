@@ -1,0 +1,13 @@
+Stats thread started at 0.308936
+ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-2FE6EE5C479ACC69FF2379B4B0F23C8C
+         Session CrashGUID >====================================================
+Loading IOS ini files took 0.02 seconds
+Loading Android ini files took 0.02 seconds
+Loading HoloLens ini files took 0.03 seconds
+Loading Mac ini files took 0.02 seconds
+Loading Linux ini files took 0.04 seconds
+Loading LinuxArm64 ini files took 0.04 seconds
+Loading TVOS ini files took 0.04 seconds
+Loading VulkanPC ini files took 0.03 seconds
