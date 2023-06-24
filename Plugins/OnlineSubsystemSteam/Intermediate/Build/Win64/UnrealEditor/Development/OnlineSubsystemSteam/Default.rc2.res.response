@@ -2,11 +2,11 @@
 /D_WIN64
 /l 0x409
 /I "."
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
+/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
 /DIS_PROGRAM=0
 /DUE_EDITOR=1
 /DENABLE_PGO_PROFILE=0
@@ -68,7 +68,7 @@
 /DBUILD_VERSION=++UE5+Release-5.1-CL-23901901
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
-/DPROJECT_PRODUCT_NAME="FPS Multiplayer Template"
+/DPROJECT_PRODUCT_NAME=FPS
 /DPROJECT_PRODUCT_IDENTIFIER=Fury
-/fo "D:\Games\Fury\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Default.rc2.res"
+/fo "D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
