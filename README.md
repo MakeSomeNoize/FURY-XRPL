@@ -8,15 +8,15 @@ FURY XRPL - P2E ONLINE BATTLE ROYALE BUILT ON UNREAL ENGINE 5 &amp; XRPL
   <br />
   </p>
 
-# Информация о проекте
-Игра в жанре шутер P2E ONLINE BATTLE ROYALE. Проект создается на базе игрового движка Unreal Engine 5 с использованием языка C++ и визуального программирования Blueprints. В проект уже используются многие новые технологии UE5, в том числе Nanite и Lumen. Дополнительно уже были добавлены плагины DLSS и Online Subsystem Steam.
+# Project Information
+A first- and third-person shooter game called P2E ONLINE BATTLE ROYALE is being developed. The project is built using the Unreal Engine 5 game engine, utilizing C++ language and visual programming with Blueprints. The project already incorporates many new UE5 technologies, including Nanite and Lumen. Additionally, DLSS and Online Subsystem Steam plugins have been added.
 
-# Описание архитектуры и кода проекта:
-## Core проекта, основный код и все механики расположены в папке FPS.   
-### Основные классы:
- - BP_PlayerCharacter. Расположение: /FPS/Blueprints/CharacterAndClasses. 
+# Project Architecture and Code Description::
+## Core Project, Main Code, and Mechanics are located in the FPS folder.   
+### Key Classes:
+ - BP_PlayerCharacter. Location: /FPS/Blueprints/CharacterAndClasses. 
 
-Базовый класс персонажа от которого наследуются все остальные классы персонажей. Здесь происходит обработка логики взаимодействия игрока с миром, его состояние и действия. В данном классе добавлены компоненты: информация о персонаже, система инвентаря, система интерактивного взаимодействия, информация о здоровье и основной Movement персонажа. Также здесь логика удобно разделена на несколько граф: EventGraph - содержит логику, которая вызывается вначале появления игрока; Health&Death - просчет логики, связанной со здоровьем и смертью персонажа; Actions - обработка событий, связанных с действиями игрока; FireWeapon - логика, связанная с оружием и выстрелами; ClassAbilities - навыки и способности персонажа.      
+This is the base character class from which all other character classes inherit. It handles the player's interaction with the world, their state, and actions. Several components are added to this class: character information, inventory system, interactive interaction system, health information, and the character's main movement. The logic is conveniently divided into several graphs: EventGraph - contains logic that is called upon the player's initial appearance; Health&Death - calculates logic related to the character's health and death; Actions - handles player action-related events; FireWeapon - logic associated with weapons and shooting; ClassAbilities - character's skills and abilities.      
 </p>
 <p align="center">
  <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/Player.png">
@@ -32,59 +32,59 @@ FURY XRPL - P2E ONLINE BATTLE ROYALE BUILT ON UNREAL ENGINE 5 &amp; XRPL
   <br />
   </p>
   
- - BP_Base_GM. Расположение: /FPS/Blueprints/GameModes
+ - BP_Base_GM. Location: /FPS/Blueprints/GameModes
 
-Класс отвечающий за основные правила игры и события, на котороые не могут влиять игроки, обработку событий подключения/отключения игроков, их количество и тд. От него наследуются все игровые режимы, которые используются в игре. Существует только на сервере.   
+This is the base controller class used to set inputs, configurations, and handle network interactions. Components added include controller settings, chat system, player score display, UI manager, and tracking of weapon/class/ability changes.   
 </p>
 <p align="center">
  <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/GM.png">
   <br />
   </p>
   
- - BP_Base_GS. Расположение: /FPS/Blueprints/GameModes
+ - BP_Base_GS. Location: /FPS/Blueprints/GameModes
 
-Класс в котором происходит управление информацией о текущем состоянии игры, появление ботов, хранение разной информации. Добавлены компоненты: система отслеживания статуса игры, менеджер ботов, некоторые настройки игры, система появление игроков. Благодаря добавленным компонентам в данном классе и написанной логике, легко создавать новые игровые режимы и быстро настраивать их.    
+This class manages information about the current game state, bot spawning, and storing various information. Components added include game status tracking system, bot manager, game settings, and player spawning system. Thanks to these added components and the implemented logic, it's easy to create new game modes and quickly configure them.    
 </p>
 <p align="center">
  <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/GS.png">
   <br />
   </p>
 
-  - BP_PlayerState. Расположение: /FPS/Blueprints/PlayerState
+  - BP_PlayerState. Location: /FPS/Blueprints/PlayerState
 
-Класс который хранит игформацию об игроке, его имени, очках, статусе.
+This class stores information about the player, such as their name, points, and status.
 <p align="center">
  <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/PS.png">
   <br />
   </p>
 
-  - BP_BaseWeapon. Расположение: /FPS/Blueprints/Weapons
+  - BP_BaseWeapon. Location: /FPS/Blueprints/Weapons
 
-Базовый класс оружия с основнйо логикой обработки стрельбы, локальных эффектов. От него наследуется все остальное оружие в игре.
+This is the base weapon class with core logic for handling shooting, local effects, etc. All other weapons in the game inherit from this class.
 <p align="center">
  <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/Weapon.png">
   <br />
   </p>
 
-### Информация о расположении других классов и ассетов в папке FPS:
-- AI - вся логика связанная с ботами и искуственным интеллектом.
-- Blueprints - кроме выше описанных классов, тут хранятся все остальные важные blueprints. Такие как: enums, interfaces, datatables, structures, большая система взаимодействия с физическими материалами и многое другое.
-- Animations - анимации персонажей, оружия.
-- Effects - основные эффекты
-- Environment - основное окружениеm, meshes, декали.
-- Gameplay - геймплейные особенности у разных игровых режимов
-- Inputs - установка и назначение inputs
-- Maps - все карты игры. В проекте используется система с sublevels, что очень сильно уменьшает вес конечного билда.
-- Sound - звуковые эффекты
-- Textures - основные текстуры
-- UI - базовые элементы игрового UI, виджеты.
-- Weapons - классы оружий
-### Коротко об остальной архитектуре проекта и классах:
-- В папках LevelFactory и LevelBrickFactory находятся основные элементы, которые используются только на этиъ картах: окружение, звуки, материалы, 
-текстуры.
-- В папке ModularSoldiers находятся все классы и ассеты связанные с модульной сборкой и кастомизацией персонажей.  
-- ProMainMenu - новая версия UI.
-- В папке plugins находятся подключенные к проекту системы DLSS и OnlineSubsystemSteam
+### Location of other classes and assets in the FPS folder:
+- AI: Logic related to bots and artificial intelligence.
+- Blueprints - besides the classes described above, all other important blueprints are stored here. Such as: enums, interfaces, datatables, structures, a large system of interaction with physical materials and much more.
+- Animations - animations of characters and weapons.
+- Effects - basic effects
+- Environment - the main environment, meshes, decals.
+- Gameplay - gameplay features for different game modes
+- Inputs - setting and assignment of inputs.
+- Maps - all maps of the game. The project uses a system with sublevels, which greatly reduces the weight of the final build.
+- Sound - sound effects
+- Textures - basic textures
+- UI - basic elements of the game UI, widgets.
+- Weapons - classes of weapons
+### Briefly about the rest of the project architecture and classes:
+- The LevelFactory and LevelBrickFactory folders contain the basic elements that are only used on these maps: environments, sounds, materials, 
+textures.
+- The ModularSoldiers folder contains all the classes and assets related to modular assembly and character customization.  
+- ProMainMenu - new version of the UI.
+- In the folder plugins are connected to the project systems DLSS and OnlineSubsystemSteam
 
-## `Посмотреть видео кода`: [Code](https://drive.google.com/file/d/1qXZ1uLft0-4RlvSWTojfsFFDF7n7yQJ6/view?usp=sharing)
-## `Полная информация о проекте`: [Furyxrpl](https://furyxrpl.com/)
+## `View code video`: [Code](https://www.youtube.com/watch?v=3_MN6-e5yfY)
+## `Full project information`: [Furyxrpl](https://furyxrpl.com/)
