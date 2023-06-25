@@ -84,4 +84,6 @@ FURY XRPL - P2E ONLINE BATTLE ROYALE BUILT ON UNREAL ENGINE 5 &amp; XRPL
 текстуры.
 - В папке ModularSoldiers находятся все классы и ассеты связанные с модульной сборкой и кастомизацией персонажей.  
 - ProMainMenu - новая версия UI.
-- В папке plugins находятся подключенные к проекту системы DLSS и OnlineSubsystemSteam 
+- В папке plugins находятся подключенные к проекту системы DLSS и OnlineSubsystemSteam
+
+  https://drive.google.com/file/d/1qXZ1uLft0-4RlvSWTojfsFFDF7n7yQJ6/view?usp=sharing
