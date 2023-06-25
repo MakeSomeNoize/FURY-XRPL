@@ -86,4 +86,4 @@ FURY XRPL - P2E ONLINE BATTLE ROYALE BUILT ON UNREAL ENGINE 5 &amp; XRPL
 - ProMainMenu - новая версия UI.
 - В папке plugins находятся подключенные к проекту системы DLSS и OnlineSubsystemSteam
 
-(https://drive.google.com/file/d/1qXZ1uLft0-4RlvSWTojfsFFDF7n7yQJ6/view?usp=sharing){:target="_blank"}
+https://drive.google.com/file/d/1qXZ1uLft0-4RlvSWTojfsFFDF7n7yQJ6/view?usp=sharing{:target="_blank"}
