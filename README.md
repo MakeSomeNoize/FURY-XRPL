@@ -62,7 +62,7 @@ FURY XRPL - P2E ONLINE BATTLE ROYALE BUILT ON UNREAL ENGINE 5 &amp; XRPL
 
 Базовый класс оружия с основнйо логикой обработки стрельбы, локальных эффектов. От него наследуется все остальное оружие в игре.
 <p align="center">
- <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/1.png">
+ <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/Weapon.png">
   <br />
   </p>
 
