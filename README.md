@@ -66,6 +66,14 @@ FURY XRPL - P2E ONLINE BATTLE ROYALE BUILT ON UNREAL ENGINE 5 &amp; XRPL
   <br />
   </p>
 
+### Информация о располоджении остальныз классов в папке FPS:
+- AI - вся логика связанная с ботами
+- Blueprints - кроме выше описанных классов, тут хранятся все остальные важные blueprints. Такие как: enums, interfaces, datatables, structures и многое другое.
+- Animations - анимации персонажей, оружия.
+- Effects - основные эффекты
+- Environment - основное окружениеm, meshes, декали.
+- Gameplay - геймплейные особенности у разных игровых режимов
+- Inputs - установка и назначение inputs
 ### Коротко об остальной архитектуре проекта и классах:
 - В папках LevelFactory и LevelBrickFactory находятся основные элементы, которые используются только на этиъ картах: окружение, звуки, материалы, 
 текстуры.BP_BaseWeapon. Расположение: /FPS/Blueprints/Weapons
