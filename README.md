@@ -46,7 +46,7 @@ FURY XRPL - P2E ONLINE BATTLE ROYALE BUILT ON UNREAL ENGINE 5 &amp; XRPL
 Класс в котором происходит управление информацией о текущем состоянии игры, появление ботов, хранение разной информации. Добавлены компоненты: система отслеживания статуса игры, менеджер ботов, некоторые настройки игры, система появление игроков. Благодаря добавленным компонентам в данном классе и написанной логике, легко создавать новые игровые режимы и быстро настраивать их.    
 </p>
 <p align="center">
- <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/1.png">
+ <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/GS.png">
   <br />
   </p>
 
