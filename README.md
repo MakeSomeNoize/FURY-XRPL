@@ -28,7 +28,7 @@ FURY XRPL - P2E ONLINE BATTLE ROYALE BUILT ON UNREAL ENGINE 5 &amp; XRPL
 Базовый класс контроллера. Используется для установки inputs, настроек, сетевого взаимодействия. Добавлены компоненты: настройки контроллера; система чата; показ счета игрока; UI менеджер; отслеживание смены оружия/класса/способностей. 
 </p>
 <p align="center">
- <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/1.png](https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/PC.png">
+ <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/PC.png">
   <br />
   </p>
   
@@ -37,7 +37,7 @@ FURY XRPL - P2E ONLINE BATTLE ROYALE BUILT ON UNREAL ENGINE 5 &amp; XRPL
 Класс отвечающий за основные правила игры и события, на котороые не могут влиять игроки, обработку событий подключения/отключения игроков, их количество и тд. От него наследуются все игровые режимы, которые используются в игре. Существует только на сервере.   
 </p>
 <p align="center">
- <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/1.png](https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/GM.png">
+ <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/GM.png">
   <br />
   </p>
   
