@@ -23,9 +23,9 @@ This is the base character class from which all other character classes inherit.
   <br />
   </p>
  
- - BP_BasePlayerController. Расположение: /FPS/Blueprints/PlayerController
+ - BP_BasePlayerController. Location: /FPS/Blueprints/PlayerController
 
-Базовый класс контроллера. Используется для установки inputs, настроек, сетевого взаимодействия. Добавлены компоненты: настройки контроллера; система чата; показ счета игрока; UI менеджер; отслеживание смены оружия/класса/способностей. 
+Controller base class. Used for setting inputs, settings, and networking. Added components: controller settings; chat system; displaying player's score; UI manager; tracking weapon/class/ability changes. 
 </p>
 <p align="center">
  <img src="https://github.com/VO-GAMES/FURY-XRPL/blob/main/Images/PC.png">
