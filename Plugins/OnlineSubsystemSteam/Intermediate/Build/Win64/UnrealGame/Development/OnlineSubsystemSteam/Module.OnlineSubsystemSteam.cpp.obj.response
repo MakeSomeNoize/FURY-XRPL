@@ -1,6 +1,6 @@
-D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp
+D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp
 /I .
-/I D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Source\Private
+/I D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Source\Private
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -121,11 +121,11 @@ D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64
 /I ..\Plugins\Runtime\Steam\SteamShared\Source
 /I ..\Plugins\Runtime\Steam\SteamShared\Source\SteamShared\Public
 /I ThirdParty\Steamworks\Steamv153\sdk\public
-/I D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystemSteam\UHT
-/I D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam
-/I D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Source
-/I D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Source\Classes
-/I D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Source\Public
+/I D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystemSteam\UHT
+/I D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam
+/I D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Source
+/I D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Source\Classes
+/I D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Source\Public
 /I ..\Plugins\Online\OnlineSubsystemUtils\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystemUtils\UHT
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Classes
@@ -139,12 +139,12 @@ D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"D:\UE5_Projects\FuryForDev\Intermediate\Build\Win64\Fury\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Development\OnlineSubsystemSteam\Definitions.OnlineSubsystemSteam.h"
-/Yu"D:\UE5_Projects\FuryForDev\Intermediate\Build\Win64\Fury\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"D:\UE5_Projects\FuryForDev\Intermediate\Build\Win64\Fury\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.obj"
-/sourceDependencies D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.dep.json
+/FI"D:\UE5_Projects\Fury\FPS5\Intermediate\Build\Win64\Fury\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Development\OnlineSubsystemSteam\Definitions.OnlineSubsystemSteam.h"
+/Yu"D:\UE5_Projects\Fury\FPS5\Intermediate\Build\Win64\Fury\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"D:\UE5_Projects\Fury\FPS5\Intermediate\Build\Win64\Fury\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.obj"
+/sourceDependencies D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi
