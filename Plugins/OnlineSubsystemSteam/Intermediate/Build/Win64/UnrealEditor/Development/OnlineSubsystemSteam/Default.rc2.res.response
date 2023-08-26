@@ -70,5 +70,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME=FPS
 /DPROJECT_PRODUCT_IDENTIFIER=Fury
-/fo "D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Default.rc2.res"
+/fo "D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-OnlineSubsystemSteam.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\UE5_Projects\Fury\FPS5\Intermediate\Build\Win64\FuryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.obj"
-"D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Default.rc2.res"
-/OUT:"D:\UE5_Projects\Fury\FPS5\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\UnrealEditor-OnlineSubsystemSteam.lib"
+"D:\UE5_Projects\FuryForDev\Intermediate\Build\Win64\FuryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.obj"
+"D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Default.rc2.res"
+/OUT:"D:\UE5_Projects\FuryForDev\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\UnrealEditor-OnlineSubsystemSteam.lib"
